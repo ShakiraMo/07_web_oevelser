@@ -10,15 +10,15 @@
 
 <body>
     <h1>Sign Up!</h1>
-    <form name="contact" method="POST" netlify>
+    <form name="contact" data-netlify="true">
         <label for="email">Email<input type="text" placeholder="Enter Email" name="email" id="email"></label>
         <div class="container">
-            <label for="adgangskode">Adgangskode <input type="password" placeholder="Enter Password" name="adgangskode"
-                    id="adgangskode"></label>
+            <label for="password">Password <input type="password" placeholder="Enter Password" name="password"
+                    id="password"></label>
 
-            <label for="remember"><input type="checkbox" checked="checked" name="remember">Remember Me</label>
+            <label class="remember"><input type="checkbox" checked="checked" name="remember">Remember Me</label>
 
-            <label for="submit_button"><input type="submit" value="Sign Up"></label>
+            <label class="submit_button"><input type="submit" value="Sign Up"></label>
         </div>
 
         <div class="container">
