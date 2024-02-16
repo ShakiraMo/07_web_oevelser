@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Sign Up!</h1>
+    <form name="contact" method="POST" netlify>
+        <label for="email">Email<input type="text" placeholder="Enter Email" name="email" id="email"></label>
+        <div class="container">
+            <label for="adgangskode">Adgangskode <input type="password" placeholder="Enter Password" name="adgangskode"
+                    id="adgangskode"></label>
+
+            <label><input type="checkbox" checked="checked" name="remember">Remember Me</label>
+
+            <label for="submit_button"><input type="submit" value="Submit"></label>
+        </div>
+
+        <div class="container">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+</body>
+
+</html>
