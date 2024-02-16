@@ -10,20 +10,28 @@ body {
 }
 h1 {
   margin-bottom: 1rem;
-  font-size: x-small;
 }
-
+.container {
+  display: flex;
+  flex-direction: column;
+}
 form {
   display: flex;
   flex-direction: column;
-  width: 12rem;
+  width: 15rem;
   border: 3px solid #f1f1f1;
+  padding: 10px;
 }
 input,
 textarea {
   margin-top: 0.2rem;
   margin-bottom: 0.8rem;
   width: 100%;
+}
+
+.remember-label {
+  display: flex;
+  flex-direction: row;
 }
 
 textarea {
